@@ -187,6 +187,88 @@ body{
 
 }
 
+/* gamer section styles */
+
+.gamer{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+     padding: 0px 60px;
+
+}
+
+.gamer-image{
+
+     width: 850px;
+     height: 489px;
+ 
+}
+
+.gamer-image img{
+     width: 80%;
+     height: 100%;
+     margin-top: 20px;
+}
+
+.gamer-content{
+
+}
+
+.gamer-content h2{
+
+     
+     font-size: 42px;
+     font-weight: 700;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin-bottom: 0px;
+
+
+}
+
+.gamer-content .para-1{
+     color: #534C64;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px; 
+     width: 520px;
+     height: 120px;
+     margin-bottom: 0px;
+
+}
+
+.gamer-content button{
+     margin-top: 0px;
+
+}
+
+.gamer-content .para-2{
+
+     color: #534C64;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 45px;
+     margin-top: 6px;
+     margin-left: 5px;
+
+
+}
+
+.para-3{
+     color: #534C64;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 45px;
+     width: 520px;
+     height: 88px;
+
+}
 
 
 
@@ -230,7 +312,63 @@ body{
     }
 
 
+    /* gamer section  */
 
+    
+     .gamer{
+       flex-direction: column;
+       align-items: center;
+       padding: 0 20px;
+     }
+   
+     .gamer-image {
+       width: 100%;
+       height: auto;
+       margin-bottom: 20px;
+     }
+   
+     .gamer-image img{
+       width: 100%;
+       height: auto;
+       margin-top: 0;
+     }
+   
+     .gamer-content h2{
+       font-size: 28px;
+       margin-bottom: 10px;
+       text-align: center;
+     }
+   
+     .gamer-content .para-1{
+       width: 100%;
+       height: auto;
+       margin-bottom: 10px;
+       font-size: 12px;
+       line-height: 22px;
+       text-align: center;
+     }
+   
+     .gamer-content .para-2{
+       font-size: 16px;
+       line-height: 30px;
+       margin-top: 4px;
+       margin-left: 0;
+       text-align: center;
+     }
+   
+     .para-3{
+       font-size: 18px;
+       line-height: 35px;
+       width: 100%;
+       height: auto;
+     }
+
+     .gamer-content button{
+          display: block;
+          margin: 0 auto;
+        }
+        
+   
      
 } 
 
