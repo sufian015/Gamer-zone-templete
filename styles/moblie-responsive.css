@@ -194,15 +194,73 @@
             position: relative;
             bottom: 150px;
             right: auto;
-            margin: 20px auto;
+            top: -116px;
             width: 50%;
             height: auto;
             border-radius: 5px;
           }
-        
-        
 
-      
-        
+
+          /* feature section */
+
+          
+          .feature{
+            display: grid;
+            grid-template-columns: repeat(2,180px);
+            gap: 30px;
+            padding-left: 20px;
+            margin-top: 0px;
+          
+       
+       }
+          
+            .feature button{
+              width: 100%;
+              margin-bottom: 20px;
+            }
+          
+
+            /* footer section */
+
+            .footer {
+              padding: 10px 0;
+            }
+          
+            .footer-logo {
+              padding-left: 112px;
+            }
+          
+            .footer-list {
+             
+              margin-top: 20px;
+              font-size: 12px;
+              gap: 4px;
+              font-size: 12px;
+              /* padding: 40px; */
+              padding: 10px;
+            }
+          
+            .footer-list li {
+              margin-left: 20px;
+            }
+          
+            .footer-list li i {
+              font-size: 24px;
+            }
+          
+            .footer-list-1 {
+              margin-top: 10px;
+            }
+          
+            .footer-list-3 {
+              font-size: 10px;
+            }
+          
+            .footer-content {
+              padding-top: 10px;
+              padding-bottom: 20px;
+            }
+         
+          
      
 } 
