@@ -211,9 +211,6 @@ body{
      margin-top: 20px;
 }
 
-.gamer-content{
-
-}
 
 .gamer-content h2{
 
@@ -270,106 +267,155 @@ body{
 
 }
 
+/* card section styles */
+
+.card{
+     padding: 15px 45px;
+
+}
+
+.card-outside{
+     text-align: center;
+}
+
+.card-outside h2{
+     color: #0B0223;
+     font-size: 44px;
+     font-weight: 700;
+     margin-bottom: 0;
 
 
+}
 
-
-/* Mobile responsive */
-
- @media screen and (max-width:576px) {
-
-     /* navbar and banner section */
-
-     .nav{
-          flex-direction: column;
-          margin: 0px;
-     }
-
-     .banner{
-          flex-direction: column-reverse;
-     }
-
-     .banner-content{
-          margin: 0;
-     }
-
-    .banner-image{
-
-     /* width: 610px;
-    margin-left: 254px; */
-
-          max-width: 100%;
-          height: auto;
-          margin: 5px auto;
+.funny{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-weight: 700;
     
+}
 
-    }
+.card-outside p{
+     color: #534C64;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 30px; 
 
-    .banner-image img{
-     width: 60%;
-     height: 97%;
-     padding-left: 100px;
-    }
+}
 
+.card-content{
+     display: flex;
+     align-items: center;
+     padding-left: 75px;
+}
 
-    /* gamer section  */
+.card-image{
 
-    
-     .gamer{
-       flex-direction: column;
-       align-items: center;
-       padding: 0 20px;
-     }
-   
-     .gamer-image {
-       width: 100%;
-       height: auto;
-       margin-bottom: 20px;
-     }
-   
-     .gamer-image img{
-       width: 100%;
-       height: auto;
-       margin-top: 0;
-     }
-   
-     .gamer-content h2{
-       font-size: 28px;
-       margin-bottom: 10px;
-       text-align: center;
-     }
-   
-     .gamer-content .para-1{
-       width: 100%;
-       height: auto;
-       margin-bottom: 10px;
-       font-size: 12px;
-       line-height: 22px;
-       text-align: center;
-     }
-   
-     .gamer-content .para-2{
-       font-size: 16px;
-       line-height: 30px;
-       margin-top: 4px;
-       margin-left: 0;
-       text-align: center;
-     }
-   
-     .para-3{
-       font-size: 18px;
-       line-height: 35px;
-       width: 100%;
-       height: auto;
-     }
+     width: 342px;
+     height: 400px;
+     border-radius: 16px;
+     margin: 0;
+     margin-top: 20px;
 
-     .gamer-content button{
-          display: block;
-          margin: 0 auto;
-        }
-        
-   
+}
+
+.card-image img{
+     width: 80%;
+     height: auto;
+
+}
+
+.card-image p{
+     color: #534C64;
+     font-size: 13px;
+     font-weight: 500;
+     line-height: 30px;
      
-} 
+
+}
+
+
+
+/* aniversary section */
+
+.aniversary{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 0px 60px;
+}
+
+.aniversary-content{
+     margin-left: 100px;
+
+}
+
+.aniversary-content h2{
+     
+          font-size: 42px;
+          font-weight: 700;
+          margin-bottom: 0px;
+          line-height: 50px
+}
+.aniversary-color{
+     color: #F948B2 ;
+
+}
+
+.install{
+     margin-left: 65px;
+}
+
+.aniversary-content p{
+     color: #534C64;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 520px;
+    height: 120px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+
+
+
+.aniversary-images{
+     width: 850px;
+     height: 489px;
+}
+
+.aniversary-images>img{
+     width: 70%;
+     height: 100%;
+     margin-top: 20px;
+    
+}
+.inside-image img{
+     position: relative;
+     bottom: 225px;
+     right: 101px;
+     width: 247.5px;
+     height: 302.083px;
+     border-radius: 5px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

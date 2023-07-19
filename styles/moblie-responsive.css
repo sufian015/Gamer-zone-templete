@@ -1,0 +1,208 @@
+
+
+/* Mobile responsive */
+
+@media screen and (max-width:576px) {
+
+     /* navbar and banner section */
+
+     .nav{
+          flex-direction: column;
+          margin: 0px;
+     }
+
+     .banner{
+          flex-direction: column-reverse;
+     }
+
+     .banner-content{
+          margin: 0;
+     }
+
+    .banner-image{
+
+     /* width: 610px;
+    margin-left: 254px; */
+
+          max-width: 100%;
+          height: auto;
+          margin: 5px auto;
+    
+
+    }
+
+    .banner-image img{
+     width: 60%;
+     height: 97%;
+     padding-left: 100px;
+    }
+
+
+    /* gamer section  */
+
+    
+     .gamer{
+       flex-direction: column;
+       align-items: center;
+       padding: 0 20px;
+     }
+   
+     .gamer-image {
+       width: 100%;
+       height: auto;
+       margin-bottom: 20px;
+     }
+   
+     .gamer-image img{
+       width: 100%;
+       height: auto;
+       margin-top: 0;
+     }
+   
+     .gamer-content h2{
+       font-size: 28px;
+       margin-bottom: 10px;
+       text-align: center;
+     }
+   
+     .gamer-content .para-1{
+       width: 100%;
+       height: auto;
+       margin-bottom: 10px;
+       font-size: 12px;
+       line-height: 22px;
+       text-align: center;
+     }
+   
+     .gamer-content .para-2{
+       font-size: 16px;
+       line-height: 30px;
+       margin-top: 4px;
+       margin-left: 0;
+       text-align: center;
+     }
+   
+     .para-3{
+       font-size: 18px;
+       line-height: 35px;
+       width: 100%;
+       height: auto;
+     }
+
+     .gamer-content button{
+          display: block;
+          margin: 0 auto;
+        }
+
+     /* card section */
+
+     .card{
+          padding: 15px 25px;
+        }
+      
+        .card-outside{
+          text-align: center;
+        }
+      
+        .card-outside h2{
+          font-size: 32px;
+        }
+      
+        .card-outside .funny{
+          font-size: 32px;
+        }
+      
+        .card-outside p{
+          font-size: 14px;
+        }
+      
+        .card-content{
+          display: block;
+          padding: 0;
+        }
+      
+        .card-image{
+          width: 100%;
+          height: auto;
+          margin: 0;
+          margin-top: 20px;
+        }
+      
+        .card-image img{
+          width: 100%;
+          height: auto;
+        }
+      
+        .card-image p{
+          font-size: 12px;
+          text-align: center;
+          line-height: 20px;
+        }
+
+
+        /* aniversary section */
+
+       
+          .aniversary{
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 30px;
+          }
+        
+          .aniversary-content{
+            margin-left: 0;
+            text-align: center;
+            padding-left: 66px;
+          }
+        
+          .aniversary-content h2{
+            font-size: 32px;
+            line-height: 40px;
+           
+          }
+        
+          .aniversary-color{
+            color: #f948b2;
+          }
+        
+          .install{
+            margin-left: 0;
+            text-align: center;
+          }
+        
+          .aniversary-content p{
+            font-size: 12px;
+            line-height: 24px;
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            
+          }
+        
+          .aniversary-images{
+            width: 100%;
+            height: auto;
+          }
+        
+          .aniversary-images > img{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+          }
+        
+          .inside-image img{
+            position: relative;
+            bottom: 150px;
+            right: auto;
+            margin: 20px auto;
+            width: 50%;
+            height: auto;
+            border-radius: 5px;
+          }
+        
+        
+
+      
+        
+     
+} 
